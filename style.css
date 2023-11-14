@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calc{
+    background-color: black;
+    height: 400px;
+    width: 300px;
+}
+
+.calc input{
+    width: 100%;
+    border: none;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.calc button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-inline: 10px;
+    margin-block: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.calc button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
